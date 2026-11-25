@@ -8,6 +8,7 @@ const find = (html, pattern) => decode((html.match(pattern) || [,''])[1]);
 async function load(id) {
   const url = `https://www.vinbudin.is/desktopdefault.aspx/tabid-54/?productid=${id}/`;
   const res = await fetch(url, { headers: { 'user-agent': 'Mozilla/5.0' } });
+  if (!res.ok) throw new Error(`${id}: HTTP ${res.status}`);
   const html = await res.text();
   return {
     id,
@@ -27,5 +28,11 @@ async function load(id) {
 
 const out = [];
 for (let i = 0; i < ids.length; i += 8) out.push(...await Promise.all(ids.slice(i, i + 8).map(load)));
+// Refuse to overwrite good data if the site's markup changed and fields came back empty.
+const broken = out.filter(b => !b.name || !b.price || !b.abv);
+if (broken.length) {
+  console.error(`Missing fields for: ${broken.map(b => b.id).join(', ')}. data.js not written.`);
+  process.exit(1);
+}
 await writeFile('data.js', `window.beers = ${JSON.stringify(out, null, 2)};\n`);
 console.log(`Wrote ${out.length} products`);
