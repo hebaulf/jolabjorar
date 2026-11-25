@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jólabjórar Vínbúðarinnar</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <p class="eyebrow">JÓLIN 2026</p>
+        <h1>Jólabjórar</h1>
+        <p>Leitaðu, síaðu og berðu saman úrval Vínbúðarinnar.</p>
+      </header>
+      <section class="controls" aria-label="Síur og röðun">
+        <label>Leita<input id="search" type="search" placeholder="Nafn, framleiðandi eða lýsing" /></label>
+        <label>Tegund<select id="type"><option value="">Allar tegundir</option></select></label>
+        <label>Framleiðandi<select id="producer"><option value="">Allir framleiðendur</option></select></label>
+        <label>Land<select id="country"><option value="">Öll lönd</option></select></label>
+        <label>Raða eftir<select id="sort">
+          <option value="name">Stafrófsröð</option><option value="price">Verði</option><option value="abv">Prósentu</option><option value="country">Landi</option><option value="producer">Framleiðanda</option>
+        </select></label>
+        <button id="direction" aria-label="Snúa röðun við">↑</button>
+        <fieldset class="availability"><legend>Fæst í</legend><label><input class="place" type="checkbox" value="Akranes" /> Akranesi</label><label><input class="place" type="checkbox" value="Keflavík" /> Keflavík</label><label><input class="place" type="checkbox" value="Selfoss" /> Selfossi</label><label><input class="place" type="checkbox" value="Vestmannaeyjar" /> Vestmannaeyjum</label></fieldset>
+      </section>
+      <p id="count" class="count"></p>
+      <section id="cards" class="cards" aria-live="polite"></section>
+    </main>
+    <template id="card-template"><article class="card"><a class="image-link" target="_blank" rel="noreferrer"><img loading="lazy" /></a><div class="card-body"><div class="topline"><span class="country"></span><span class="abv"></span></div><h2></h2><p class="producer"></p><p class="type"></p><p class="description"></p><p class="stores"></p><div class="bottom"><strong class="price"></strong><a class="source" target="_blank" rel="noreferrer">Vörusíða ↗</a></div></div></article></template>
+    <script src="data.js"></script><script src="app.js"></script>
+  </body>
+</html>
