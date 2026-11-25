@@ -32,15 +32,13 @@ python3 -m http.server
 
 ## Updating the data
 
-`data.js` is generated. A GitHub Actions workflow ([.github/workflows/scrape.yml](.github/workflows/scrape.yml)) runs the scraper every 6 hours and commits `data.js` only when prices or availability have changed. GitHub Pages then redeploys the site. You can also start the workflow by hand from the repo's **Actions** tab ("Update product data" → **Run workflow**).
-
-To refresh the data locally, run the scraper with Node 18 or newer (it needs the built-in `fetch`):
+`data.js` is generated and updated by hand. To refresh prices and availability, run the scraper with Node 18 or newer (it needs the built-in `fetch`):
 
 ```sh
 node scrape.mjs
 ```
 
-The script fetches each product page listed in the `ids` string at the top of `scrape.mjs`, 8 at a time, and overwrites `data.js`. To add or remove a beer, edit that list of Vínbúðin product numbers and run the script again.
+The script fetches each product page listed in the `ids` string at the top of `scrape.mjs` and overwrites `data.js`. It fetches one page at a time with a short pause in between, and backs off and retries when the server rate-limits it (HTTP 429), so a full run takes a few minutes. To add or remove a beer, edit that list of Vínbúðin product numbers and run the script again.
 
 Each product record looks like this:
 
@@ -63,7 +61,9 @@ Each product record looks like this:
 
 `price` is in Icelandic krónur. `abv` is a string with a decimal comma, as shown on the source site.
 
-The scraper reads specific element IDs and class names from Vínbúðin's HTML. If the site's markup changes and a product's name, price or ABV comes back empty, the script exits with an error and leaves `data.js` as it was. In the scheduled workflow, this shows up as a failed run.
+The scraper reads specific element IDs and class names from Vínbúðin's HTML. If the site's markup changes and a product's name, price or ABV comes back empty, the script exits with an error and leaves `data.js` as it was.
+
+After a run, commit and push `data.js`. GitHub Pages then redeploys the site.
 
 ## Disclaimer
 

@@ -5,11 +5,23 @@ const ids = `30871 62422 28415 25945 29805 26483 63165 26685 21984 29793 63040 3
 const decode = value => value.replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&nbsp;/g, ' ').replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
 const find = (html, pattern) => decode((html.match(pattern) || [,''])[1]);
 
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+// Fetch politely: on 429/503, wait (honouring Retry-After) and try again.
+async function get(url, id) {
+  for (let attempt = 1; ; attempt++) {
+    const res = await fetch(url, { headers: { 'user-agent': 'Mozilla/5.0' } });
+    if (res.ok) return res.text();
+    if ((res.status !== 429 && res.status !== 503) || attempt === 5) throw new Error(`${id}: HTTP ${res.status}`);
+    const wait = Number(res.headers.get('retry-after')) * 1000 || 5000 * 2 ** (attempt - 1);
+    console.warn(`${id}: HTTP ${res.status}, retrying in ${wait / 1000}s`);
+    await sleep(wait);
+  }
+}
+
 async function load(id) {
   const url = `https://www.vinbudin.is/desktopdefault.aspx/tabid-54/?productid=${id}/`;
-  const res = await fetch(url, { headers: { 'user-agent': 'Mozilla/5.0' } });
-  if (!res.ok) throw new Error(`${id}: HTTP ${res.status}`);
-  const html = await res.text();
+  const html = await get(url, id);
   return {
     id,
     name: find(html, /<h3[^>]*>([\s\S]*?)<\/h3>/),
@@ -27,7 +39,11 @@ async function load(id) {
 }
 
 const out = [];
-for (let i = 0; i < ids.length; i += 8) out.push(...await Promise.all(ids.slice(i, i + 8).map(load)));
+// One request at a time with a pause in between, to stay under the site's rate limit.
+for (const id of ids) {
+  out.push(await load(id));
+  await sleep(1500);
+}
 // Refuse to overwrite good data if the site's markup changed and fields came back empty.
 const broken = out.filter(b => !b.name || !b.price || !b.abv);
 if (broken.length) {
