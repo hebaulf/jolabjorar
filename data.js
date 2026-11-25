@@ -1,7 +1,7 @@
 window.beers = [
   {
     "id": "30871",
-    "name": "Kaldi Litlu jól (30871)",
+    "name": "Kaldi Litlu jól",
     "price": 432,
     "abv": "4,4",
     "country": "Ísland",
@@ -20,7 +20,7 @@ window.beers = [
   },
   {
     "id": "62422",
-    "name": "Hansa Juleöl (62422)",
+    "name": "Hansa Juleöl",
     "price": 419,
     "abv": "4,7",
     "country": "Noregur",
@@ -39,7 +39,7 @@ window.beers = [
   },
   {
     "id": "28415",
-    "name": "Jólanaddi (28415)",
+    "name": "Jólanaddi",
     "price": 627,
     "abv": "5,2",
     "country": "Ísland",
@@ -58,7 +58,7 @@ window.beers = [
   },
   {
     "id": "25945",
-    "name": "La Mere Noel (25945)",
+    "name": "La Mere Noel",
     "price": 999,
     "abv": "8,5",
     "country": "Belgía",
@@ -77,7 +77,7 @@ window.beers = [
   },
   {
     "id": "29805",
-    "name": "Vetur jólalager (29805)",
+    "name": "Vetur jólalager",
     "price": 491,
     "abv": "5,1",
     "country": "Ísland",
@@ -96,7 +96,7 @@ window.beers = [
   },
   {
     "id": "26483",
-    "name": "Segull 67 jólabjór (26483)",
+    "name": "Segull 67 jólabjór",
     "price": 478,
     "abv": "5,4",
     "country": "Ísland",
@@ -115,7 +115,7 @@ window.beers = [
   },
   {
     "id": "63165",
-    "name": "Jóla Æði (63165)",
+    "name": "Jóla Æði",
     "price": 565,
     "abv": "5",
     "country": "Ísland",
@@ -134,7 +134,7 @@ window.beers = [
   },
   {
     "id": "26685",
-    "name": "Ölverk Grýla Jólabjór (26685)",
+    "name": "Ölverk Grýla Jólabjór",
     "price": 533,
     "abv": "5,2",
     "country": "Ísland",
@@ -153,7 +153,7 @@ window.beers = [
   },
   {
     "id": "21984",
-    "name": "Corsendonk Christmas Ale í álhólki (21984)",
+    "name": "Corsendonk Christmas Ale í álhólki",
     "price": 2398,
     "abv": "8,1",
     "country": "Belgía",
@@ -172,7 +172,7 @@ window.beers = [
   },
   {
     "id": "29793",
-    "name": "Gull Lite Yule White Ale (29793)",
+    "name": "Gull Lite Yule White Ale",
     "price": 479,
     "abv": "4,4",
     "country": "Ísland",
@@ -191,7 +191,7 @@ window.beers = [
   },
   {
     "id": "63040",
-    "name": "Willemoes Jule Ale (63040)",
+    "name": "Willemoes Jule Ale",
     "price": 999,
     "abv": "7,5",
     "country": "Danmörk",
@@ -210,7 +210,7 @@ window.beers = [
   },
   {
     "id": "31752",
-    "name": "Skál Jóla Belgian Dubbel (31752)",
+    "name": "Skál Jóla Belgian Dubbel",
     "price": 668,
     "abv": "6,5",
     "country": "Ísland",
@@ -229,7 +229,7 @@ window.beers = [
   },
   {
     "id": "13791",
-    "name": "Jóla Kaldi (13791)",
+    "name": "Jóla Kaldi",
     "price": 558,
     "abv": "5,4",
     "country": "Ísland",
@@ -248,7 +248,7 @@ window.beers = [
   },
   {
     "id": "09452",
-    "name": "Tuborg Julebryg (09452)",
+    "name": "Tuborg Julebryg",
     "price": 449,
     "abv": "5,6",
     "country": "Ísland",
@@ -267,7 +267,7 @@ window.beers = [
   },
   {
     "id": "63161",
-    "name": "Thule Lite Jólabjór (63161)",
+    "name": "Thule Lite Jólabjór",
     "price": 399,
     "abv": "4,4",
     "country": "Ísland",
@@ -286,7 +286,7 @@ window.beers = [
   },
   {
     "id": "26504",
-    "name": "Grýluhor (26504)",
+    "name": "Grýluhor",
     "price": 753,
     "abv": "6",
     "country": "Ísland",
@@ -305,7 +305,7 @@ window.beers = [
   },
   {
     "id": "30643",
-    "name": "RVK Jólabrugg (30643)",
+    "name": "RVK Jólabrugg",
     "price": 499,
     "abv": "5,2",
     "country": "Ísland",
@@ -324,7 +324,7 @@ window.beers = [
   },
   {
     "id": "23597",
-    "name": "Hurðaskellir nr. 54 Imperial Porter (23597)",
+    "name": "Hurðaskellir nr. 54 Imperial Porter",
     "price": 1545,
     "abv": "11,5",
     "country": "Ísland",
@@ -343,7 +343,7 @@ window.beers = [
   },
   {
     "id": "17489",
-    "name": "Delirium Christmas (17489)",
+    "name": "Delirium Christmas",
     "price": 1099,
     "abv": "10",
     "country": "Belgía",
@@ -362,7 +362,7 @@ window.beers = [
   },
   {
     "id": "29813",
-    "name": "Ölvisholt Jóla Klassík (29813)",
+    "name": "Ölvisholt Jóla Klassík",
     "price": 539,
     "abv": "5,2",
     "country": "Ísland",
@@ -381,7 +381,7 @@ window.beers = [
   },
   {
     "id": "26263",
-    "name": "Jóla Kaldi (26263)",
+    "name": "Jóla Kaldi",
     "price": 458,
     "abv": "5,4",
     "country": "Ísland",
@@ -400,7 +400,7 @@ window.beers = [
   },
   {
     "id": "31667",
-    "name": "St. Bernardus Christmas Ale (31667)",
+    "name": "St. Bernardus Christmas Ale",
     "price": 999,
     "abv": "9,8",
     "country": "Belgía",
@@ -419,7 +419,7 @@ window.beers = [
   },
   {
     "id": "20716",
-    "name": "Shepherd Neame Christmas Ale (20716)",
+    "name": "Shepherd Neame Christmas Ale",
     "price": 999,
     "abv": "7",
     "country": "Bretland",
@@ -438,7 +438,7 @@ window.beers = [
   },
   {
     "id": "07499",
-    "name": "Föroya Jóla Bryggj (07499)",
+    "name": "Föroya Jóla Bryggj",
     "price": 489,
     "abv": "5,8",
     "country": "Færeyjar",
@@ -457,7 +457,7 @@ window.beers = [
   },
   {
     "id": "09483",
-    "name": "Harboe Julebryg (09483)",
+    "name": "Harboe Julebryg",
     "price": 368,
     "abv": "5,7",
     "country": "Danmörk",
@@ -476,7 +476,7 @@ window.beers = [
   },
   {
     "id": "31037",
-    "name": "Muninn vetrarkryddað sterköl (31037)",
+    "name": "Muninn vetrarkryddað sterköl",
     "price": 1149,
     "abv": "7,5",
     "country": "Ísland",
@@ -495,7 +495,7 @@ window.beers = [
   },
   {
     "id": "30620",
-    "name": "Jólabolla Barrel Aged Imperial Stout (30620)",
+    "name": "Jólabolla Barrel Aged Imperial Stout",
     "price": 2487,
     "abv": "13",
     "country": "Ísland",
@@ -514,7 +514,7 @@ window.beers = [
   },
   {
     "id": "28790",
-    "name": "Ákaflega gaman þá Double IPA (28790)",
+    "name": "Ákaflega gaman þá Double IPA",
     "price": 1299,
     "abv": "7,5",
     "country": "Ísland",
@@ -533,7 +533,7 @@ window.beers = [
   },
   {
     "id": "25399",
-    "name": "Jólabóndi IPA (25399)",
+    "name": "Jólabóndi IPA",
     "price": 509,
     "abv": "6",
     "country": "Ísland",
@@ -552,7 +552,7 @@ window.beers = [
   },
   {
     "id": "25402",
-    "name": "Víking Lite jól (25402)",
+    "name": "Víking Lite jól",
     "price": 399,
     "abv": "4,4",
     "country": "Ísland",
@@ -571,7 +571,7 @@ window.beers = [
   },
   {
     "id": "03590",
-    "name": "Víking Jólabjór (03590)",
+    "name": "Víking Jólabjór",
     "price": 479,
     "abv": "5",
     "country": "Ísland",
@@ -590,7 +590,7 @@ window.beers = [
   },
   {
     "id": "31413",
-    "name": "Skovlyst Julebryg Mörk Gylden Ale (31413)",
+    "name": "Skovlyst Julebryg Mörk Gylden Ale",
     "price": 799,
     "abv": "5,5",
     "country": "Danmörk",
@@ -609,7 +609,7 @@ window.beers = [
   },
   {
     "id": "26170",
-    "name": "Frostrósir hvítöl (26170)",
+    "name": "Frostrósir hvítöl",
     "price": 549,
     "abv": "4,5",
     "country": "Ísland",
@@ -628,7 +628,7 @@ window.beers = [
   },
   {
     "id": "31696",
-    "name": "Tuborg Lille Jul (31696)",
+    "name": "Tuborg Lille Jul",
     "price": 429,
     "abv": "4,8",
     "country": "Ísland",
@@ -647,7 +647,7 @@ window.beers = [
   },
   {
     "id": "27285",
-    "name": "Jóla Magnús frúktus fruit sour (27285)",
+    "name": "Jóla Magnús frúktus fruit sour",
     "price": 569,
     "abv": "5",
     "country": "Ísland",
@@ -666,7 +666,7 @@ window.beers = [
   },
   {
     "id": "24442",
-    "name": "Einstök Winter Ale (24442)",
+    "name": "Einstök Winter Ale",
     "price": 699,
     "abv": "8",
     "country": "Ísland",
@@ -685,7 +685,7 @@ window.beers = [
   },
   {
     "id": "29804",
-    "name": "Vetur jólalager (29804)",
+    "name": "Vetur jólalager",
     "price": 512,
     "abv": "5,1",
     "country": "Ísland",
@@ -704,7 +704,7 @@ window.beers = [
   },
   {
     "id": "63039",
-    "name": "Willemoes Julebryg (63039)",
+    "name": "Willemoes Julebryg",
     "price": 899,
     "abv": "6,5",
     "country": "Danmörk",
@@ -723,7 +723,7 @@ window.beers = [
   },
   {
     "id": "29988",
-    "name": "Einstök Doppelbock (29988)",
+    "name": "Einstök Doppelbock",
     "price": 549,
     "abv": "6,7",
     "country": "Ísland",
@@ -742,7 +742,7 @@ window.beers = [
   },
   {
     "id": "32121",
-    "name": "Boli X Mas (32121)",
+    "name": "Boli X Mas",
     "price": 499,
     "abv": "5",
     "country": "Ísland",
@@ -761,7 +761,7 @@ window.beers = [
   },
   {
     "id": "30110",
-    "name": "Hátíðar Púki súrbjór (30110)",
+    "name": "Hátíðar Púki súrbjór",
     "price": 499,
     "abv": "5",
     "country": "Ísland",
@@ -780,7 +780,7 @@ window.beers = [
   },
   {
     "id": "30874",
-    "name": "Dagsson jólabjór með bubblum (30874)",
+    "name": "Dagsson jólabjór með bubblum",
     "price": 511,
     "abv": "4,6",
     "country": "Ísland",
@@ -799,7 +799,7 @@ window.beers = [
   },
   {
     "id": "26238",
-    "name": "Jóla drangi (26238)",
+    "name": "Jóla drangi",
     "price": 549,
     "abv": "5,6",
     "country": "Ísland",
@@ -818,7 +818,7 @@ window.beers = [
   },
   {
     "id": "62421",
-    "name": "Hansa Julebrygg (62421)",
+    "name": "Hansa Julebrygg",
     "price": 419,
     "abv": "4,7",
     "country": "Noregur",
@@ -837,7 +837,7 @@ window.beers = [
   },
   {
     "id": "31386",
-    "name": "Falcon Julbrygd (31386)",
+    "name": "Falcon Julbrygd",
     "price": 479,
     "abv": "5,2",
     "country": "Svíþjóð",
@@ -856,7 +856,7 @@ window.beers = [
   },
   {
     "id": "21286",
-    "name": "Egils Malt Jólabjór (21286)",
+    "name": "Egils Malt Jólabjór",
     "price": 439,
     "abv": "5,6",
     "country": "Ísland",
@@ -875,7 +875,7 @@ window.beers = [
   },
   {
     "id": "27682",
-    "name": "Jóla Bjössi (27682)",
+    "name": "Jóla Bjössi",
     "price": 509,
     "abv": "5,8",
     "country": "Ísland",
@@ -894,7 +894,7 @@ window.beers = [
   },
   {
     "id": "28796",
-    "name": "Fönn jólabjór (28796)",
+    "name": "Fönn jólabjór",
     "price": 499,
     "abv": "5,5",
     "country": "Ísland",
@@ -913,7 +913,7 @@ window.beers = [
   },
   {
     "id": "22875",
-    "name": "Gæðingur Jóla Tumi (22875)",
+    "name": "Gæðingur Jóla Tumi",
     "price": 524,
     "abv": "5,6",
     "country": "Ísland",
@@ -932,7 +932,7 @@ window.beers = [
   },
   {
     "id": "05479",
-    "name": "Víking Jólabjór (05479)",
+    "name": "Víking Jólabjór",
     "price": 489,
     "abv": "5",
     "country": "Ísland",
@@ -951,7 +951,7 @@ window.beers = [
   },
   {
     "id": "31954",
-    "name": "Gæðingur jóla Barley Wine (31954)",
+    "name": "Gæðingur jóla Barley Wine",
     "price": 1140,
     "abv": "11,5",
     "country": "Ísland",
@@ -970,7 +970,7 @@ window.beers = [
   },
   {
     "id": "31794",
-    "name": "Jólaskotta (31794)",
+    "name": "Jólaskotta",
     "price": 588,
     "abv": "4,6",
     "country": "Ísland",
@@ -989,7 +989,7 @@ window.beers = [
   },
   {
     "id": "26259",
-    "name": "Gull Lite Yule White Ale (26259)",
+    "name": "Gull Lite Yule White Ale",
     "price": 419,
     "abv": "4,4",
     "country": "Ísland",
@@ -1008,7 +1008,7 @@ window.beers = [
   },
   {
     "id": "31697",
-    "name": "Tuborg Lille Jul (31697)",
+    "name": "Tuborg Lille Jul",
     "price": 489,
     "abv": "4,8",
     "country": "Ísland",
@@ -1027,7 +1027,7 @@ window.beers = [
   },
   {
     "id": "27736",
-    "name": "Haltá jólaketti (27736)",
+    "name": "Haltá jólaketti",
     "price": 730,
     "abv": "5,5",
     "country": "Ísland",
@@ -1046,7 +1046,7 @@ window.beers = [
   },
   {
     "id": "29035",
-    "name": "Santa's Blue Balls Milkshake IPA (29035)",
+    "name": "Santa's Blue Balls Milkshake IPA",
     "price": 779,
     "abv": "4,7",
     "country": "Ísland",
@@ -1065,7 +1065,7 @@ window.beers = [
   },
   {
     "id": "22080",
-    "name": "N'ice Chouffe (22080)",
+    "name": "N'ice Chouffe",
     "price": 1099,
     "abv": "10",
     "country": "Belgía",
@@ -1084,7 +1084,7 @@ window.beers = [
   },
   {
     "id": "14801",
-    "name": "Albani Jule Bryg Blaa Lys (14801)",
+    "name": "Albani Jule Bryg Blaa Lys",
     "price": 479,
     "abv": "7",
     "country": "Danmörk",
@@ -1103,7 +1103,7 @@ window.beers = [
   },
   {
     "id": "25398",
-    "name": "Hvít Jól Mandarínu White Ale (25398)",
+    "name": "Hvít Jól Mandarínu White Ale",
     "price": 469,
     "abv": "5",
     "country": "Ísland",
@@ -1122,7 +1122,7 @@ window.beers = [
   },
   {
     "id": "03587",
-    "name": "Tuborg Julebryg (03587)",
+    "name": "Tuborg Julebryg",
     "price": 489,
     "abv": "5,6",
     "country": "Ísland",
@@ -1141,7 +1141,7 @@ window.beers = [
   },
   {
     "id": "28823",
-    "name": "Jólasopi Session IPA (28823)",
+    "name": "Jólasopi Session IPA",
     "price": 711,
     "abv": "4,2",
     "country": "Ísland",
@@ -1160,7 +1160,7 @@ window.beers = [
   },
   {
     "id": "30723",
-    "name": "Hátíðarskinkan Triple IPA (30723)",
+    "name": "Hátíðarskinkan Triple IPA",
     "price": 1498,
     "abv": "10",
     "country": "Ísland",
@@ -1179,7 +1179,7 @@ window.beers = [
   },
   {
     "id": "20821",
-    "name": "Föroya Jóla Bryggj (20821)",
+    "name": "Föroya Jóla Bryggj",
     "price": 475,
     "abv": "5,8",
     "country": "Færeyjar",
@@ -1198,7 +1198,7 @@ window.beers = [
   },
   {
     "id": "27724",
-    "name": "Jólakisi IPA (27724)",
+    "name": "Jólakisi IPA",
     "price": 1090,
     "abv": "7",
     "country": "Ísland",
@@ -1217,7 +1217,7 @@ window.beers = [
   },
   {
     "id": "29802",
-    "name": "Jólabolla Imperial Stout (29802)",
+    "name": "Jólabolla Imperial Stout",
     "price": 1631,
     "abv": "11",
     "country": "Ísland",
@@ -1236,7 +1236,7 @@ window.beers = [
   },
   {
     "id": "31690",
-    "name": "Smiðjan Jólalager (31690)",
+    "name": "Smiðjan Jólalager",
     "price": 599,
     "abv": "5",
     "country": "Ísland",
@@ -1255,7 +1255,7 @@ window.beers = [
   },
   {
     "id": "10793",
-    "name": "Royal X-Mas hvítur (10793)",
+    "name": "Royal X-Mas hvítur",
     "price": 389,
     "abv": "5,6",
     "country": "Danmörk",
@@ -1274,7 +1274,7 @@ window.beers = [
   },
   {
     "id": "27520",
-    "name": "Segull 67 hátíðar original (27520)",
+    "name": "Segull 67 hátíðar original",
     "price": 448,
     "abv": "5",
     "country": "Ísland",
@@ -1293,7 +1293,7 @@ window.beers = [
   },
   {
     "id": "24479",
-    "name": "Gæðingur Jingle Balls (24479)",
+    "name": "Gæðingur Jingle Balls",
     "price": 498,
     "abv": "5",
     "country": "Ísland",
@@ -1312,7 +1312,7 @@ window.beers = [
   },
   {
     "id": "32122",
-    "name": "Boli X Mas (32122)",
+    "name": "Boli X Mas",
     "price": 439,
     "abv": "5",
     "country": "Ísland",
@@ -1331,7 +1331,7 @@ window.beers = [
   },
   {
     "id": "17471",
-    "name": "Víking Jólabjór (17471)",
+    "name": "Víking Jólabjór",
     "price": 419,
     "abv": "5",
     "country": "Ísland",
@@ -1350,7 +1350,7 @@ window.beers = [
   },
   {
     "id": "29809",
-    "name": "Ölvisholt Jóla Lite (29809)",
+    "name": "Ölvisholt Jóla Lite",
     "price": 469,
     "abv": "4,3",
     "country": "Ísland",
@@ -1369,7 +1369,7 @@ window.beers = [
   },
   {
     "id": "63115",
-    "name": "Kirkjufell & Krækiber (63115)",
+    "name": "Kirkjufell & Krækiber",
     "price": 4495,
     "abv": "6,5",
     "country": "Ísland",
@@ -1388,7 +1388,7 @@ window.beers = [
   },
   {
     "id": "22261",
-    "name": "Jóla Kaldi Súkkulaði Porter (22261)",
+    "name": "Jóla Kaldi Súkkulaði Porter",
     "price": 668,
     "abv": "6,5",
     "country": "Ísland",
@@ -1407,7 +1407,7 @@ window.beers = [
   },
   {
     "id": "20095",
-    "name": "Tuborg Julebryg (20095)",
+    "name": "Tuborg Julebryg",
     "price": 519,
     "abv": "5,6",
     "country": "Ísland",
@@ -1426,7 +1426,7 @@ window.beers = [
   },
   {
     "id": "27714",
-    "name": "Jóla hvað? Piparköku öl (27714)",
+    "name": "Jóla hvað? Piparköku öl",
     "price": 786,
     "abv": "6",
     "country": "Ísland",
@@ -1445,7 +1445,7 @@ window.beers = [
   },
   {
     "id": "22027",
-    "name": "Gouden Carolus Christmas (22027)",
+    "name": "Gouden Carolus Christmas",
     "price": 1099,
     "abv": "10",
     "country": "Belgía",
@@ -1464,7 +1464,7 @@ window.beers = [
   },
   {
     "id": "29787",
-    "name": "Skyrjarmur Blueberry Sour nr. 59 (29787)",
+    "name": "Skyrjarmur Blueberry Sour nr. 59",
     "price": 565,
     "abv": "4,3",
     "country": "Ísland",
@@ -1483,7 +1483,7 @@ window.beers = [
   },
   {
     "id": "27709",
-    "name": "Jóla Skarfur (27709)",
+    "name": "Jóla Skarfur",
     "price": 699,
     "abv": "6,8",
     "country": "Ísland",
@@ -1502,7 +1502,7 @@ window.beers = [
   },
   {
     "id": "30229",
-    "name": "St. Bernardus Christmas Ale (30229)",
+    "name": "St. Bernardus Christmas Ale",
     "price": 1099,
     "abv": "10",
     "country": "Belgía",
@@ -1521,7 +1521,7 @@ window.beers = [
   },
   {
     "id": "63168",
-    "name": "Thule Lite Jólabjór (63168)",
+    "name": "Thule Lite Jólabjór",
     "price": 489,
     "abv": "4,4",
     "country": "Ísland",
@@ -1540,7 +1540,7 @@ window.beers = [
   },
   {
     "id": "27284",
-    "name": "Eitthvað fallegt Season IPA (27284)",
+    "name": "Eitthvað fallegt Season IPA",
     "price": 599,
     "abv": "5",
     "country": "Ísland",
@@ -1559,7 +1559,7 @@ window.beers = [
   },
   {
     "id": "25808",
-    "name": "Snjókarl mandarínuöl (25808)",
+    "name": "Snjókarl mandarínuöl",
     "price": 448,
     "abv": "4,2",
     "country": "Ísland",

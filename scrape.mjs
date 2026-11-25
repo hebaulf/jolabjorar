@@ -24,7 +24,7 @@ async function load(id) {
   const html = await get(url, id);
   return {
     id,
-    name: find(html, /<h3[^>]*>([\s\S]*?)<\/h3>/),
+    name: find(html, /<h3[^>]*>([\s\S]*?)<\/h3>/).replace(` (${id})`, ''),
     price: Number(find(html, /id="ctl00_ctl01_Label_ProductPrice"[^>]*>([\s\S]*?)<\/span>/).replace(/\./g, '')),
     abv: find(html, /id="ctl00_ctl01_Label_ProductAlchoholVolume"[^>]*>([\s\S]*?)<\/span>/),
     country: find(html, /id="ctl00_ctl01_Label_ProductCountryOfOrigin"[^>]*>([\s\S]*?)<\/span>/),

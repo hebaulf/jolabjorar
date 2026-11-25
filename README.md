@@ -45,7 +45,7 @@ Each product record looks like this:
 ```json
 {
   "id": "30871",
-  "name": "Kaldi Litlu jól (30871)",
+  "name": "Kaldi Litlu jól",
   "price": 432,
   "abv": "4,4",
   "country": "Ísland",
